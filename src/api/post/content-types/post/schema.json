@@ -52,12 +52,14 @@
       }
     },
     "slug": {
-      "type": "string",
+      "type": "uid",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "targetField": "title",
+      "required": true
     }
   }
 }
