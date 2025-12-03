@@ -44,22 +44,34 @@
       ]
     },
     "content": {
-      "type": "richtext",
+      "type": "customField",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
+      },
+      "customField": "plugin::ckeditor5.CKEditor",
+      "options": {
+        "preset": "defaultHtml"
       }
     },
-    "slug": {
+    "trSlug": {
       "type": "uid",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "targetField": "title",
-      "required": true
+      "targetField": "title"
+    },
+    "enSlug": {
+      "type": "uid",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "targetField": "title"
     }
   }
 }
